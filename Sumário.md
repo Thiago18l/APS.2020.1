@@ -51,7 +51,7 @@ O sistema de injetor de insulina oferecerá que o aparelho seja uma solução pa
 
 
 O problema de   | Paciente ter hipoglicemia
---------- | ------
+:--------- | :------
 **afeta** | a qualidade de vida do paciente
 **cujo impacto é** | a perda de consiência, convulsões e, em casos mais graves, ao óbito
 **uma boa solução seria** | um equipamento que injetasse a insulina no paciente periodicamente
@@ -59,7 +59,7 @@ O problema de   | Paciente ter hipoglicemia
 #### 2.3 Instrução de Posição do Produto
 
 Para | profissionais de saúde e pacientes
----- | ----
+:---- | :----
 **Que** | necessitam de uma solução que auxilie no controle de inserção de insulina.
 **Onde controle de inserção de Insulina** | é um sistema
 **Que** | faz o gerenciamento de doses de insulina automaticamente conforme configurado pela o profissional de saúde
