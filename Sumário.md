@@ -4,17 +4,17 @@
     - 1.1 [Propósito](#prop)
     - 1.2 [Escopo](#escop)
     - 1.3 [Definições, Acrônimos e Abreviações](#def)
-    - 1.4 [Referências]()
-    - 1.5 [Visão Geral]()
+    - 1.4 [Referências](#ref)
+    - 1.5 [Visão Geral](#vision)
 2. [Posicionamento](#position)
-    - 2.1 [Oportunidade de negócio]()
-    - 2.2 [Descrição do Problema]()
-    - 2.3 [Instrução de Posição do Produto]()
-3. [Descrições da parte interessada e dos Usuários]()
-    - 3.1 [Resumo dos Usuários]()
-    - 3.2 [Perfis dos Usuários]()
-4. [Visão Geral do Produto]()
-    - 4.1 [Configurações do Produto]()
+    - 2.1 [Oportunidade de negócio](#op)
+    - 2.2 [Descrição do Problema](#des)
+    - 2.3 [Instrução de Posição do Produto](#inst)
+3. [Descrições da parte interessada e dos Usuários](#desc)
+    - 3.1 [Resumo dos Usuários](#resu)
+    - 3.2 [Perfis dos Usuários](#perf)
+4. [Visão Geral do Produto](#visiong)
+    - 4.1 [Configurações do Produto](#config)
 
 
 ### <a name="intro">1. Introdução</a>
@@ -29,10 +29,10 @@
 #### <a name="def">1.3 Definições, Acrônimos e Abreviações</a>
 - Profissionais de saúde - A quem compete configurar o equipamento e realizar manutenções, além do acompanhamento do paciente.
  
- #### 1.4 Referências:
+ #### <a name="ref">1.4 Referências:</a>
  BORGES, felipe; Guilherme;RODRIGUES, natália;Mateus;KISHIMA, lucas. Projeto Receita Mais: Documento de Visão. Disponível em: https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Documento-de-Vis%C3%A3o . Acesso em 24 jul. 2020;
 
- #### 1.5 Visão Geral
+ #### <a name="vision">1.5 Visão Geral</a>
 
  Este documento é dividido em 4 tópicos descrevendo das características do sistema proposto. Sendo dividido em:
  -  **Introdução**: no qual é introduzido os detalhes gerais sobre a visão do projeto;
@@ -42,12 +42,13 @@
 
 ### <a name="position">2. Posicionamento</a>
 
-#### 2.1 Oportunidade de Negócio
+#### <a name="op">2.1 Oportunidade de Negócio</a>
 
 O número de Brasileiros diagnosticados com diabetes cresceu 61,8% nos últimos 10 anos, de acordo com dados do Ministério da Saúde. Isso significa que 8,9% da população sofre com a doença - eram 5,5% em 2006. Para esses pacientes, assegurar que os níveis de glicose no sangue estejam sempre adequados é um grande desafio.
 
 O sistema de injetor de insulina oferecerá que o aparelho seja uma solução para que os pacientes que tenham diabetes, não venham a ter uma hipoglicemia (queda drástica de taxas de açúcar no sangue). Tornando assim a vida desse indivíduo mais satisfatória.
-#### 2.2 Descrição do Problema
+
+#### <a name="des">2.2 Descrição do Problema</a>
 
 
 O problema de   | Paciente ter hipoglicemia
@@ -56,7 +57,7 @@ O problema de   | Paciente ter hipoglicemia
 **cujo impacto é** | a perda de consiência, convulsões e, em casos mais graves, ao óbito
 **uma boa solução seria** | um equipamento que injetasse a insulina no paciente periodicamente
 
-#### 2.3 Instrução de Posição do Produto
+#### <a name="inst">2.3 Instrução de Posição do Produto</a>
 
 Para | profissionais de saúde e pacientes
 :---- | :----
@@ -64,16 +65,16 @@ Para | profissionais de saúde e pacientes
 **Onde controle de inserção de Insulina** | é um sistema
 **Que** | faz o gerenciamento de doses de insulina automaticamente conforme configurado pela o profissional de saúde
 
-### 3. Descrições da parte interessada e dos Usuários
+### <a name="desc">3. Descrições da parte interessada e dos Usuários</a>
 
-#### 3.1 Resumo dos Usuários
+#### <a name="resu">3.1 Resumo dos Usuários</a>
 
 | Nome        | Descrição           | 
 | ------------- |:-------------:| 
 | Paciente      | Pessoas que buscam atendimento médico | 
 | Médicos      | Todos os profissionais de saúde que utilizam o sistema      |   
 
-#### 3.2 Perfis dos Usuários
+#### <a name="perf">3.2 Perfis dos Usuários</a>
 
 ##### 3.2.1 Paciente
 
@@ -97,11 +98,11 @@ Para | profissionais de saúde e pacientes
 | Envolvimento | Alto
 | Problemas/Comentários | A utilização não deve ser complexa e eles podem não estarem familiarizados com a utilização sendo necessário um treinamento prévio.
 
-### 4. Visão Geral do Produto
+### <a name="visiong">4. Visão Geral do Produto</a>
 
 O sistema de inserção de insulina irá automatizar as dosagens de insulina no paciente. O profissional de saúde será responsável por configurar o sistema, sendo que apenas uma das formas de configuração funciona por vez. O sistema funciona durante o período de 30 dias, sendo que quando falta 5 dias para o término do prazo ele emite um alarme para o paciente e o respectivo profissional da saúde que acompanha o caso daquele individuo.
 
-#### 4.1 Configurações do produto:
+#### <a name="visiong">4.1 Configurações do produto:</a>
 
 | Tipo de configuração | Descrição
 :----: | :----:
