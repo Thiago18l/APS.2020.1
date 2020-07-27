@@ -102,7 +102,7 @@ Para | profissionais de saúde e pacientes
 
 O sistema de inserção de insulina irá automatizar as dosagens de insulina no paciente. O profissional de saúde será responsável por configurar o sistema, sendo que apenas uma das formas de configuração funciona por vez. O sistema funciona durante o período de 30 dias, sendo que quando falta 5 dias para o término do prazo ele emite um alarme para o paciente e o respectivo profissional da saúde que acompanha o caso daquele individuo.
 
-#### <a name="visiong">4.1 Configurações do produto:</a>
+#### <a name="config">4.1 Configurações do produto:</a>
 
 | Tipo de configuração | Descrição
 :----: | :----:
