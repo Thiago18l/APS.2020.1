@@ -52,7 +52,7 @@ BIDIN, simonica. A robótica Educacional: Uma experiência interdisciplinar de a
 
 #### <a name="des">2.2 Descrição do Problema</a>
 
-O problema de   | controle de dados
+O problema de   | Gerenciamento de recursos
 :--------- | :------
 **que afeta** | gestores e colaboradores 
 **cujo impacto é** | a perda de consistência dos dados, transparência do que é obtido praticamente não existe e a falta de controle do que entra e saí do laboratório.
