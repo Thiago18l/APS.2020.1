@@ -35,6 +35,7 @@ O escopo deste documento se limita a fornecer a todos os envolvidos uma descriç
 
  BORGES, felipe; Guilherme;RODRIGUES, natália;Mateus;KISHIMA, lucas. Projeto Receita Mais: Documento de Visão. Disponível em: https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Documento-de-Vis%C3%A3o . Acesso em 31 jul. 2020;
 
+BIDIN, simonica. A robótica Educacional: Uma experiência interdisciplinar de aprendizagem no Ensino da Física. Disponível em: https://administradores.com.br/artigos/a-rob%C3%B3tica-educacional. Acesso em 1 ago. 2020;
   #### <a name="vision">1.5 Visão Geral</a>
   
  Este documento é dividido em 4 tópicos descrevendo das características do sistema proposto. Sendo dividido em:
