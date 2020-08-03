@@ -45,11 +45,12 @@ O escopo deste documento se limita a fornecer a todos os envolvidos uma descriç
 BIDIN, simonica. A robótica Educacional: Uma experiência interdisciplinar de aprendizagem no Ensino da Física. Disponível em: https://administradores.com.br/artigos/a-rob%C3%B3tica-educacional. Acesso em 1 ago. 2020;
   #### <a name="vision">1.5 Visão Geral</a>
   
- Este documento é dividido em 4 tópicos descrevendo das características do sistema proposto. Sendo dividido em:
+ Este documento é dividido em 5 tópicos descrevendo das características do sistema proposto. Sendo dividido em:
  -  **Introdução**: no qual é introduzido os detalhes gerais sobre a visão do projeto;
  - **Posicionamento**: descrevendo o problema e a oportunidade de negócio;
  - **Descrições dos Envolvidos e dos Usuários**: esta seção descreve o perfil das partes interessadas no projeto;
  - **Visão Geral do Produto**: Esta seção fornece uma visualização das capacidades do produto.
+ - **Restrições**: Esta seção fornece dados técnicos sobre o sistema.
 
  ### <a name="position">2. Posicionamento</a>
  #### <a name="oportunity">2.1 Oportunidade de Negócio</a>
