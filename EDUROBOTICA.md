@@ -48,7 +48,7 @@ BIDIN, simonica. A robótica Educacional: Uma experiência interdisciplinar de a
  #### <a name="oportunity">2.1 Oportunidade de Negócio</a>
  Atualmente não existe nenhum sistema de controle para a administração do laboratório de robótica, sendo assim, uma oportunidade de negócio bastante ampla, para obter um controle de quem obteve algum material do laboratório.
 
- O sistema EDUROBOTICA oferecerá um controle inteligente e transparentes dos dados, para caso necessite de relatórios e verificações de controle, o sistema irá ter todos os dados necessários para obter o controle patrimonial de todos os materiais que são obtidos no laboratório desde datas de compras, verbas de patrocinio que entram e notas fiscais de produtivos obtidos, assim gerenciando de forma inteligênte os recursos do laboratório.
+ Dessa forma, a concepção de um sistema que permita o gerenciamento do laboratório otimizaria a organização e produtividade do mesmo. O **EDUROBOTICA** oferecerá um controle inteligente e transparentes dos dados, para caso o gestor necessite de relatórios e verificações de controle, o sistema irá ter todos os dados necessários para obter o controle de todos os materiais que são obtidos no laboratório desde, datas de compras, verbas de patrocinio que entram e notas fiscais de produtivos obtidos, assim gerenciando de forma inteligênte os recursos do laboratório.
 
 #### <a name="des">2.2 Descrição do Problema</a>
 
