@@ -13,7 +13,14 @@
     - 3.1 [Resumo dos Usuários](#resu)
     - 3.2 [Perfis dos Usuários](#perf)
 4. [Visão Geral do Produto](#visiong)
-    - 4.1 [Resumo dos Recursos](#config)
+    - 4.1 [Perspectiva do Produto](#perspectiva)
+    - 4.2 [Resumo dos Recursos](#config)
+5. [Restrições](#prog)
+    - 5.1 [Restrições de Design](#design)
+    - 5.2 [Restrições de implementação](#imple)
+    - 5.3 [Restrições de Segurança](#seguranca)
+    - 5.4 [Restrições de Uso](#uso)
+
 
 
 
@@ -90,10 +97,10 @@ O problema de   | Gerenciamento de recursos
 | Problemas/Comentários | O aluno sempre deverá abrir uma nova demanda no sistema sempre que retirar algum material do laboratório para ter um controle desses recursos.
 
 ### <a name="visiong">4. Visão Geral do Produto</a>
+#### <a name="perspectiva">4.1 Perspectiva do Produto</a>
+O **EDUROBOTICA** será desenvolvido para ter um maior controle sobre o patrimônio e para melhorar o serviço do laboratório de robótica. É um sistema  de funcionamento interno, que conterá o cadastro de novas demandas como entrada e saída de kit's e componentes, além de robos já montados ou prontos para montar, cadastro de alunos que utilizam o laboratório e seus recursos, obtendo um maior gerenciamento dos gastos de forma organizada para um maior controle sobre os mesmos.
 
-O sistema será desenvolvido para ter um maior controle sobre o patrimônio e para melhorar o serviço do laboratório de robótica. É um sistema  de funcionamento interno, que conterá o cadastro de novas demandas como entrada e saída de kit's e componentes, além de robos já montados ou prontos para montar, cadastro de alunos que utilizam o laboratório e seus recursos, obtendo um maior gerenciamento dos gastos de forma organizada para um maior controle sobre os mesmos.
-
-#### <a name="config">4.1 Resumo dos Recursos</a>
+#### <a name="config">4.2 Resumo dos Recursos</a>
 
 | Recurso       | Benefício   
 | ------------- |:-------------: 
@@ -102,3 +109,22 @@ O sistema será desenvolvido para ter um maior controle sobre o patrimônio e pa
 | Gerenciamento de relatórios | O sistema permitirá o gerenciamento e busca de relatórios anteriores caso o usuário necessite.
 | Lista de recursos em falta | Sistema irá avaliar os níveis de recursos dentro do laboratório, gerando assim uma lista de itens em falta para a reposição dos mesmos.
 | Registro de entrada de recursos | Permite que o laboratório tenha o controle da entrada de novos recursos, como, verbas, notas fiscais, data de compras e etc.
+
+
+### <a name="prog">5. Restrições</a>
+
+#### <a name="design">5.1 Restrições de Design</a>
+
+O design será elegante e simples, pensando ao pormenor, onde apenas o essencial tem lugar à vista.
+
+#### <a name="imple">5.2 Restrições de Implementação</a>
+
+O sistema será desenvolvido utilizando Java no backend da aplicação utilizando o framework Spring Boot e JPA para a persistência de dados como um serviço RESTful. No frontend da aplicação será utilizado a linguagem de programação TypeScript com a biblioteca React, utilizando os principios SOLID e metodologias ágeis de desenvolvimento como o TDD (Test Driven Developement).
+
+#### <a name="seguranca">5.3 Restrições de Segurança</a>
+
+O sigilo dos dados deve ser totalmente respeitado, sendo assim só pessoas responsáveis que teram acesso a relatórios e dados brutos do sistema.
+
+#### <a name="uso">5.4 Restrições de Uso</a>
+
+Para o uso do sistema é necessário que o usuário tenha acesso a um dispositivo conectado à internet e que possua um navegador web compatível com o sistema. Caso o usuário não possua acesso à internet, o sistema deve mostrar uma página de erro.
