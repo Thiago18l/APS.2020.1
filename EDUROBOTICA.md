@@ -1,3 +1,11 @@
+# Histórico de Versões
+
+| Data        | Versão           | Descrição | Autor
+| :------------- |:-------------:| :-----------: | :-----:
+| 03/08/2020      | 1.0.0 | Criação e preenchimento do documento | Thiago Lopes 
+
+
+
 # Sumário
 
 1. [Introdução](#intro)
