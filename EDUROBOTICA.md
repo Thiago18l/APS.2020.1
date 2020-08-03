@@ -15,6 +15,7 @@
 4. [Visão Geral do Produto](#visiong)
     - 4.1 [Perspectiva do Produto](#perspectiva)
     - 4.2 [Resumo dos Recursos](#config)
+    - 4.3 [Suposições](#sup)
 5. [Restrições](#prog)
     - 5.1 [Restrições de Design](#design)
     - 5.2 [Restrições de implementação](#imple)
@@ -37,6 +38,8 @@ O escopo deste documento se limita a fornecer a todos os envolvidos uma descriç
 
 - Profissionais de educação: A quem compete realizar os cadastros no sistema e gerar relatórios das entradas e saídas de recursos sempre que requisitado.
 - Alunos: Usuários do laboratório que geram demandas ao sistema.
+- SO: Sistema Operancional. ex: Windows, Linux, MacOS
+
 
  #### <a name="ref">1.4 Referências:</a>
 
@@ -112,6 +115,13 @@ O **EDUROBOTICA** será desenvolvido para ter um maior controle sobre o patrimô
 | Registro de entrada de recursos | Permite que o laboratório tenha o controle da entrada de novos recursos, como, verbas, notas fiscais, data de compras e etc.
 
 
+#### <a name="sup">4.3 Suposições</a>
+- Disponível em todos os SO;
+- O sistema utilizará usuário e senha;
+- Necessita de pessoas treinadas para o uso do sistema;
+- Conterá banco de dados PostgreSQL
+- Os relatórios são exportáveis para formatos PDF, para que todos os tipos de documentos sejam salvos corretamente e que possa enviá-los para o e-mail a partir da tela de pré-visualização;
+- Supõe-se que nas máquinas que utilizaram o sistema, deve ter navegadores web atualizados para a utilização do mesmo.
 ### <a name="prog">5. Restrições</a>
 
 #### <a name="design">5.1 Restrições de Design</a>
