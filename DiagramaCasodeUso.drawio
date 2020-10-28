@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T11:44:57.902Z" agent="5.0 (Windows)" etag="qIPdgwXZBBXCBcJ3BUx4" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T11:45:34.819Z" agent="5.0 (Windows)" etag="Vu1b0oTdNW1wuZFtB93I" version="13.8.5" type="github">
   <diagram id="EJyE3xgY3rA5Oy8GQSxj" name="Page-1">
     <mxGraphModel dx="942" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,6 +24,12 @@
         </mxCell>
         <mxCell id="CMk42NDVx-9z72aOCZey-6" value="Registrar entrada de materiais" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Eurr6QDvCMiPPO9meUgi-2" value="Gestor geral" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eurr6QDvCMiPPO9meUgi-3" value="&lt;div&gt;Aluno&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="525" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
