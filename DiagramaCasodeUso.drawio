@@ -1,25 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T11:42:09.119Z" agent="5.0 (Windows)" etag="ju57mkugp6vXx_PHoBAr" version="13.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T11:44:57.902Z" agent="5.0 (Windows)" etag="qIPdgwXZBBXCBcJ3BUx4" version="13.8.5" type="github">
   <diagram id="EJyE3xgY3rA5Oy8GQSxj" name="Page-1">
     <mxGraphModel dx="942" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CMk42NDVx-9z72aOCZey-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Eurr6QDvCMiPPO9meUgi-1" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="170" y="380" width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="CMk42NDVx-9z72aOCZey-1" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="370" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CMk42NDVx-9z72aOCZey-2" value="Gerar relatório" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CMk42NDVx-9z72aOCZey-2" value="Gerar relatório" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="370" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CMk42NDVx-9z72aOCZey-3" value="Cadastrar assuntos e demandas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CMk42NDVx-9z72aOCZey-3" value="Cadastrar assuntos e demandas" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="460" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CMk42NDVx-9z72aOCZey-4" value="Logar no Sistema" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CMk42NDVx-9z72aOCZey-4" value="Logar no Sistema" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CMk42NDVx-9z72aOCZey-5" value="Registrar saída de materiais" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CMk42NDVx-9z72aOCZey-5" value="Registrar saída de materiais" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="550" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CMk42NDVx-9z72aOCZey-6" value="Registrar entrada de materiais" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CMk42NDVx-9z72aOCZey-6" value="Registrar entrada de materiais" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="650" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
