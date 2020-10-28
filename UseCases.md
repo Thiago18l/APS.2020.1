@@ -20,7 +20,7 @@ c) **Resumo**: Este caso de uso descreve as etapas percorridas pelo o usuário p
 d) **Cenário Principal**:
 
 | Ações do ator        | Resposta do Sistema           
-| :------------- |:-------------:| :-----------: | :-----:
+| :------------- |:-------------:
 |1. Selecionar a opção de logar    |  |
 | | 2. Apresentar o formulário de login
 |3. Informar login e senha |
@@ -29,7 +29,7 @@ d) **Cenário Principal**:
 e) **Cenário alternativo - Usuário login ou senha incorretos:**
 
 | Ações do ator        | Resposta do Sistema           
-| :------------- |:-------------:| :-----------: | :-----:
+| :------------- |:-------------:|
 |1. Selecionar a opção de logar    |  |
 | | 2. Apresentar o formulário de login
 |3. Informar login e senha |
