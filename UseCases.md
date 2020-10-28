@@ -18,6 +18,7 @@ b) **Pré-condições**: É preciso estar cadastrado no sistema.
 c) **Resumo**: Este caso de uso descreve as etapas percorridas pelo o usuário para logar-se ao sistema
 
 d) **Cenário Principal**:
+
 | Ações do ator        | Resposta do Sistema           
 | :------------- |:-------------:| :-----------: | :-----:
 |1. Selecionar a opção de logar    |  |
@@ -26,6 +27,7 @@ d) **Cenário Principal**:
 | | 4. Autenticar cliente
 
 e) **Cenário alternativo - Usuário login ou senha incorretos:**
+
 | Ações do ator        | Resposta do Sistema           
 | :------------- |:-------------:| :-----------: | :-----:
 |1. Selecionar a opção de logar    |  |
