@@ -3,7 +3,9 @@
 
 <h2 align="center">Diagrama de caso de Uso</h2>
 <hr>
-<img src="https://i.imgur.com/2hQa5gk.png" alt="Diagrama de caso de uso" align="center" />
+<a align="center">
+<img src="https://i.imgur.com/2hQa5gk.png" alt="Diagrama de caso de uso"/>
+</a>
 <hr/>
 
 ## Documentação de caso de uso
