@@ -295,7 +295,7 @@ f) **Cenário alternativo - Gestor não confirmou a ação de registro**:
 |8. Confirma ação|
 ||9.Retorna ao menu principal
 
-<h3><a name="entrada">3.6 Identificação de caso de uso - <b>CDU005</b> - Registrar entrada de materiais</a></h3>
+<h3><a name="entrada">3.6 Identificação de caso de uso - <b>CDU006</b> - Registrar entrada de materiais</a></h3>
 
 a) **Ator principal**: Gestor geral
 
