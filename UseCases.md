@@ -1,20 +1,54 @@
-<h2 align="center">Modelo de caso de Uso</h2><br>
+**PROJETO**: Sistema de gerenciamento do laboratório de robótica
+
+**CLIENTE**: Disciplina de Análise e projeto de sistemas (APS)
+
+# Histórico de Versões
+
+| Data        | Versão           | Descrição | Autor
+| :------------- |:-------------:| :-----------: | :-----:
+| 03/08/2020      | 1.0 | Criação e preenchimento do documento | Thiago Lopes 
+| 21/10/2020| 2.0 | Ínicio da criação dos casos de uso| Thiago Lopes
+| 28/10/2020| 2.1 | Refatoração do diagrama de caso de uso| Thiago Lopes
+| 29/10/2020| 2.2 | Aperfeiçoamento das especificações dos casos de uso| Thiago Lopes
+
+# Sumário
+
+1. [Diagrama de caso de uso](#diagram)
+2. [Identificação dos Casos de uso](#identificacao)
+3. [Especificações de casos de uso](#espc)
+    - 3.1 - [Logar no Sistema](#login)
+    - 3.2 - [Gerar Relatório](#relatorio)
+    - 3.3 - [Cadastrar assuntos](#assuntos)
+    - 3.4 - [Cadastrar demandas](#demandas)
+    - 3.5 - [Registrar saída de materiais](#saida)
+    - 3.6 - [Registrar entrada de materiais](#entrada)
+    - 3.7 - [Aluno cadastra demandas](#aluno)
+
+<hr>
 
 
-<h2 align="center">Diagrama de caso de Uso</h2>
+## <a name="diagram">1. Diagrama de caso de Uso</a>
 <hr>
 <a align="center">
 <img src="https://i.imgur.com/2hQa5gk.png" alt="Diagrama de caso de uso"/>
 </a>
 <hr/>
 
-## Documentação de caso de uso
 
-### 1. ESPECIFICAÇÃO DE CASO DE USO
+## <a name="identificacao">2.Identificação dos casos de uso</a>
+ - **CDU001** - O usuário pode realizar login no sistema
+ - **CDU002** - O Gestor gera relatórios
+ - **CDU003** - O Gestor cadastra assuntos
+ - **CDU004** - O Gestor cadastra demandas
+ - **CDU005** - O Gestor registra saída de materiais
+ - **CDU006** - O Gestor registrar entrada de materiais
+ - **CDU007** - Aluno pode cadastrar demandas no sistema
+
+### 3. <a name="espc">ESPECIFICAÇÕES DE CASOS DE USO</a>
 
 <hr>
 
-<h3>1.1) Identificação do caso de uso - <strong>CDU001</strong> - Logar no Sistema</h3>
+<h3><a name="login">3.1 Identificação do caso de uso - <strong>CDU001</strong> - Logar no Sistema</a></h3>
 
 a) **Ator principal**: Usuário
 
@@ -44,13 +78,15 @@ e) **Cenário alternativo - Usuário login ou senha incorretos:**
 |7. Informar login e senha|
 | |8. Autenticar cliente
 
-<h3>1.2 Identificação de caso de uso - CDU002 - Gerar relatório</h3>
+<h3><a name="relatorio">3.2 Identificação de caso de uso - <b>CDU002</b> - Gerar relatório</a></h3>
 
 a) **Ator principal**: Gestor geral
 
 b) **Resumo**: Este caso detalha os passos para que o gestor geral possa gerar relatórios e anexar documentos ao relatório em questão
 
-c) **Cenário Principal**: 
+c) **Pré-condições**: O gestor geral necessita gerar um relatório com base nos dados do sistema
+
+d) **Cenário Principal - Gestor gera um relatório**: 
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -64,7 +100,7 @@ c) **Cenário Principal**:
 |8. Selecionar opção de envio |
 | | 9. Enviar relatório
 
-d) **Cenário Alternativo - relatório sem nenhum preenchimento**:
+e) **Cenário Alternativo - relatório sem nenhum preenchimento**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -82,13 +118,13 @@ d) **Cenário Alternativo - relatório sem nenhum preenchimento**:
 |12. Selecionar opção de envio|
 ||13. Enviar relatório
 
-<h3>1.3 Identificação de caso de uso - CDU003 - Cadastrar assuntos</h3>
+<h3><a name="assuntos">3.3 Identificação de caso de uso - <b>CDU003</b> - Cadastrar assuntos</a></h3>
 
 a) **Ator principal**: Gestor geral
 
 b) **Resumo**: Este caso detalha como o usuário irá cadastrar assuntos para reuniões e pautas.
 
-c) **Cenário principal**:
+c) **Cenário principal - Gestor cadastra um assunto no sistema**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -133,7 +169,7 @@ e) **Cenário alternativo - Gestor não informou uma data**:
 |11. Salvar assunto|
 
 
-<h3>1.4 Identificação de caso de uso - <b>CDU004</b> -  Cadastrar Demandas</h3>
+<h3><a name="demandas">3.4 Identificação de caso de uso - <b>CDU004</b> - Cadastrar Demandas</a></h3>
 
 a) **Ator principal**: Gestor geral
 
@@ -141,7 +177,7 @@ b) **Resumo**: Este caso detalha como o usuário irá cadastrar demandas dentro 
 
 c) **Pré-condição**: ter materiais cadastrados dentro do sistema
 
-d) **Cenário principal**:
+d) **Cenário principal - Gestor cadastra uma demanda**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -211,7 +247,7 @@ g) **Cenário alternativo - Gestor não preencheu o formulário**:
 ||15.Informar que a demanda foi cadastrada
 
 
-<h3>1.5 Identificação de caso de uso - <b>CDU005</b> -  Registrar saída de materiais</h3>
+<h3><a name="saida">3.5 Identificação de caso de uso - <b>CDU005</b> - Registrar saída de materiais</a></h3>
 
 a) **Ator principal**: Gestor geral
 
@@ -259,7 +295,7 @@ f) **Cenário alternativo - Gestor não confirmou a ação de registro**:
 |8. Confirma ação|
 ||9.Retorna ao menu principal
 
-<h3>1.6 Identificação de caso de uso - <b>CDU006</b> -  Registrar entrada de materiais</h3>
+<h3><a name="entrada">3.6 Identificação de caso de uso - <b>CDU005</b> - Registrar entrada de materiais</a></h3>
 
 a) **Ator principal**: Gestor geral
 
@@ -308,7 +344,8 @@ f) **Cenário alternativo - Gestor deseja cancelar o registro**:
 |6. Cancela a confirmação de registro|
 ||7. Retorna ao menu principal
 
-<h3>1.7 Identificação de caso de uso - <b>CDU007</b> -  Cadastrar demandas</h3>
+
+<h3><a name="aluno">3.7 Identificação de caso de uso - <b>CDU007</b> - Aluno cadastra demandas</a></h3>
 
 a) **Ator principal**: Aluno
 
