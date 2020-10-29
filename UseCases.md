@@ -259,7 +259,7 @@ f) **Cenário alternativo - Gestor não confirmou a ação de registro**:
 |8. Confirma ação|
 ||9.Retorna ao menu principal
 
-<h3>1.5 Identificação de caso de uso - <b>CDU006</b> -  Registrar entrada de materiais</h3>
+<h3>1.6 Identificação de caso de uso - <b>CDU006</b> -  Registrar entrada de materiais</h3>
 
 a) **Ator principal**: Gestor geral
 
@@ -306,4 +306,51 @@ f) **Cenário alternativo - Gestor deseja cancelar o registro**:
 |4.Seleciona a opção de registrar material|
 ||5.Solicitar confirmação
 |6. Cancela a confirmação de registro|
+||7. Retorna ao menu principal
+
+<h3>1.7 Identificação de caso de uso - <b>CDU007</b> -  Cadastrar demandas</h3>
+
+a) **Ator principal**: Aluno
+
+b) **Resumo**: Este caso detalha como o aluno irá cadastrar demandas dentro do sistema quando ele retirar algum material do laboratório.
+
+c)**Pré-condições**: Aluno deseja registrar uma demanda no sistema
+
+d) **Cenário Principal - Aluno deseja registrar demanda**:
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Seleciona a opção de Registrar demandas|
+||2.Apresenta formulário de registro
+|3.Preencher o formulário|
+|4.Selecionar opção de registrar demanda|
+||5.Solicita confirmação
+|6.Confirmar ação|
+||7.Demanda registrada com sucesso
+
+e) **Cenário alternativo - Aluno não preenche o formulário**:
+
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Seleciona a opção de Registrar demandas|
+||2.Apresenta formulário de registro
+|3.Não preenche o formulário|
+|4.Selecionar opção de registrar demanda|
+||5.Verifica se o relatório não está em branco
+||6.Informa que o formulário deve ser preenchido
+||7.Apresenta formulário de registro de demandas
+|8. Preenche o formulário|
+|9.Seleciona opção de registrar demanda|
+||10.Solicita confirmação
+|11.Confirmar ação|
+||12.Demanda registrada com sucesso
+
+f) **Cenário alternativo - Aluno cancela o registro da demanda**:
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Seleciona a opção de Registrar demandas|
+||2.Apresenta formulário de registro
+|3.Preencher o formulário|
+|4.Selecionar opção de registrar demanda|
+||5.Solicitar confirmação
+|6.Cancela a confirmação|
 ||7. Retorna ao menu principal
