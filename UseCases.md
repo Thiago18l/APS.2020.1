@@ -209,3 +209,52 @@ g) **Cenário alternativo - Gestor não preencheu o formulário**:
 ||13.Informar que o material foi vinculado a demanda
 |14.Salvar demanda|
 ||15.Informar que a demanda foi cadastrada
+
+
+<h3>1.5 Identificação de caso de uso - <b>CDU005</b> -  Registrar saída de materiais</h3>
+
+a) **Ator principal**: Gestor geral
+
+b) **Resumo**: Este caso detalha os passos para que o gestor geral possa registrar a saída de materiais do laboratório de robótica.
+
+c) **Pré-condição**: retirada de algum material do laboratório
+
+d) **Cenário Principal - Registrar saída de materiais**:
+
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Selecionar a opção de registrar saída de materiais|
+||2.Apresentar formulário para preencher quais materiais foram retirados
+|3. Preencher formulário|
+|4. Seleciona a opção de registrar|
+||5.Solicitar confirmação
+||6. Registra a saída dos materiais
+
+e) **Cenário alternativo - Gestor não preencheu o formulário**:
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Selecionar a opção de registrar saída de materiais|
+||2.Apresentar formulário para preencher quais materiais foram retirados
+|3. Não preencheu os campos|
+|4. Seleciona a opção de registrar|
+||5.Verifica se o formulário não esta em branco
+||6.Informar que o formulário deve ser preenchido
+||7. Apresentar formulário de preenchimento
+|8. Preenche formulário|
+|9. Seleciona a opção de registrar|
+||10. Solicitar confirmação
+|11. Confirmar ação|
+||12. Registrar a saída dos materiais 
+
+f) **Cenário alternativo - Gestor não confirmou a ação de registro**:
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Selecionar a opção de registrar saída de materiais|
+||2.Apresentar formulário para preencher quais materiais foram retirados
+|3. Preencher o formulário|
+|4.Seleciona a opção de registrar|
+||5.Solicita confirmação
+|6.Recusa a confirmação|
+||7.Solicita se realmente deseja cancelar o registro
+|8. Confirma ação|
+||9.Retorna ao menu
