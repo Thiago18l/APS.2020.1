@@ -239,7 +239,7 @@ e) **Cenário alternativo - Gestor não preencheu o formulário**:
 |4. Seleciona a opção de registrar|
 ||5.Verifica se o formulário não esta em branco
 ||6.Informar que o formulário deve ser preenchido
-||7. Apresentar formulário de preenchimento
+||7. Apresentar formulário
 |8. Preenche formulário|
 |9. Seleciona a opção de registrar|
 ||10. Solicitar confirmação
@@ -257,4 +257,53 @@ f) **Cenário alternativo - Gestor não confirmou a ação de registro**:
 |6.Recusa a confirmação|
 ||7.Solicita se realmente deseja cancelar o registro
 |8. Confirma ação|
-||9.Retorna ao menu
+||9.Retorna ao menu principal
+
+<h3>1.5 Identificação de caso de uso - <b>CDU006</b> -  Registrar entrada de materiais</h3>
+
+a) **Ator principal**: Gestor geral
+
+b) **Resumo**: Este caso detalha passo a passo como o gestor irá registrar a entrada de materiais dentro do sistema do laboratório de robótica
+
+c) **Pré-condições**: Gestor deseja realizar a entrada de um material recebido
+
+d) **Cenário principal -  Gestor registra a entrada de material**:
+
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Selecionar a opção de registro de materiais|
+||2.Apresentar formulário para preenchimento dos materiais a serem registrados
+|3.Preencher formulário|
+|4.Seleciona a opção de registrar material|
+||5. Solicitar confirmação
+|6. Confirmar ação|
+||7. Registra a entrada de materiais no sistema
+
+e) **Cenário alternativo - Gestor não preenche formulário**:
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Selecionar a opção de registro de materiais|
+||2.Apresentar formulário para preenchimento dos materiais a serem registrados
+|3. Não preenche formulário|
+|4.Seleciona opção de registrar material|
+||5.Verifica se o relatório está em branco
+||6.Informa que o formulário deve ser preenchido
+||7.Apresenta formulário de registro
+|8. Preenche o formulário
+|9.Seleciona opção de registrar material
+||10.Verifica se o relatório está em branco
+||11.Solicita confirmação
+|12. Confirmar ação|
+||13.Registra a entrada de materiais no sistema
+
+f) **Cenário alternativo - Gestor deseja cancelar o registro**:
+
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Selecionar a opção de registro de materiais|
+||2.Apresentar formulário para preenchimento dos materiais a serem registrados
+|3.Preencher formulário|
+|4.Seleciona a opção de registrar material|
+||5.Solicitar confirmação
+|6. Cancela a confirmação de registro|
+||7. Retorna ao menu principal
