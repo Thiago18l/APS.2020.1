@@ -78,3 +78,53 @@ d) **Cenário Alternativo - relatório sem nenhum preenchimento**:
 ||11.Informar opções de envio
 |12. Selecionar opção de envio|
 ||13. Enviar relatório
+
+<p>1.3 Identificação de caso de uso - CDU003 - Cadastrar assuntos</p>
+
+a) **Ator principal**: Gestor geral
+
+b) **Resumo**: Este caso detalha como o usuário irá cadastrar assuntos para reuniões e pautas.
+
+c) **Cenário principal**:
+
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Selecionar a opção de cadastrar assunto |
+| |2.Apresentar formulário de cadastro de assuntos
+| |3.Solicitar um título para o assunto
+|4. Informar título |
+| |5. Solicitar data para agendamento
+|6. Informar data |
+||7.Solicitar se o usuário deseja salvar
+|8. Salvar assunto |
+
+d) **Cenário alternativo - Gestor não informou um título**:
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Selecionar a opção de cadastrar assunto |
+||2.Apresentar formulário de cadastro de assuntos
+||3.Solicitar um título para o assunto
+||4.Usuário não informou um título
+||5.Informar que um assunto precisa de um título
+||6.Solicitar um título para o assunto
+|7. Informar título |
+| |8. Solicitar data para agendamento
+|9. Informar data |
+||10.Solicitar se o usuário deseja salvar
+|11. Salvar assunto |
+
+e) **Cenário alternativo - Gestor não informou uma data**:
+
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1.Selecionar a opção de cadastrar assunto |
+| |2.Apresentar formulário de cadastro de assuntos
+| |3.Solicitar um título para o assunto
+|4. Informar título |
+||5. Solicitar data para agendamento
+||6.Usuário não informou uma data
+||7.Informar que para cadastrar um assunto necessita uma data
+||8.Solicitar data para agendamento
+|9. Informar data|
+||10.Solicitar se o usuário deseja salvar
+|11. Salvar assunto|
