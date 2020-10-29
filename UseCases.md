@@ -11,7 +11,10 @@
 ## Documentação de caso de uso
 
 ### 1. ESPECIFICAÇÃO DE CASO DE USO
-<p>1.1) Identificação do caso de uso - CDU001 - Logar no Sistema</p>
+
+<hr>
+
+<h3>1.1) Identificação do caso de uso - <strong>CDU001</strong> - Logar no Sistema</h3>
 
 a) **Ator principal**: Usuário
 
@@ -41,7 +44,7 @@ e) **Cenário alternativo - Usuário login ou senha incorretos:**
 |7. Informar login e senha|
 | |8. Autenticar cliente
 
-<p>1.2 Identificação de caso de uso - CDU002 - Gerar relatório</p>
+<h3>1.2 Identificação de caso de uso - CDU002 - Gerar relatório</h3>
 
 a) **Ator principal**: Gestor geral
 
@@ -79,7 +82,7 @@ d) **Cenário Alternativo - relatório sem nenhum preenchimento**:
 |12. Selecionar opção de envio|
 ||13. Enviar relatório
 
-<p>1.3 Identificação de caso de uso - CDU003 - Cadastrar assuntos</p>
+<h3>1.3 Identificação de caso de uso - CDU003 - Cadastrar assuntos</h3>
 
 a) **Ator principal**: Gestor geral
 
@@ -128,3 +131,81 @@ e) **Cenário alternativo - Gestor não informou uma data**:
 |9. Informar data|
 ||10.Solicitar se o usuário deseja salvar
 |11. Salvar assunto|
+
+
+<h3>1.4 Identificação de caso de uso - <b>CDU004</b> -  Cadastrar Demandas</h3>
+
+a) **Ator principal**: Gestor geral
+
+b) **Resumo**: Este caso detalha como o usuário irá cadastrar demandas dentro do sistema para que possa haver um controle dos itens dentro do laboratório.
+
+c) **Pré-condição**: ter materiais cadastrados dentro do sistema
+
+d) **Cenário principal**:
+
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1. Selecionar a opção de cadastrar Demandas |
+||2.Apresentar formulário de cadastro de Demandas
+||3.Solicitar um título para cadastrar a demanda
+|4. Informar título |
+|5. Popular o formulário|
+||6. Informar materiais cadastrados
+||7. Verificar materiais no banco
+|8. Selecionar material|
+||9. Informar que o material foi vinculado a demanda
+|10.Salvar demanda |
+||11. Informar que a demanda foi cadastrada
+
+e) **Cenário alternativo - Nenhum material cadastrado no sistema**:
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1. Selecionar a opção de cadastrar Demandas |
+||2.Apresentar formulário de cadastro de Demandas
+||3.Solicitar um título para cadastrar a demanda
+|4. Informar título |
+|5. Popular o formulário|
+||6. Informar materiais cadastrados
+||7. Verificar materiais no banco
+||8. Informar que não existe nenhum material na base de dados
+||9.Solicitar para que cadastre um material no sistema
+||10.Retornar para o menu principal
+
+f) **Cenário alternativo - Gestor não informou um título**:
+
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1. Selecionar a opção de cadastrar Demandas |
+||2.Apresentar formulário de cadastro de Demandas
+||3.Solicitar um título para cadastrar a demanda
+||4.Gestor não informou um título
+||5.Informar que uma demanda necessita de um título
+||6.Solicitar um título para a demanda
+|7. Informar título|
+|8. Popular o formulário|
+||9.Informar materiais cadastrados
+||10.Verificar materiais no banco
+|11.Selecionar material|
+||12.Informar que o material foi vinculado a demanda
+|13.Salvar demanda|
+||14.Informar que a demanda foi cadastrada
+
+g) **Cenário alternativo - Gestor não preencheu o formulário**:
+| Ações do ator | Resposta do Sistema
+| :----------- | :-------------:|
+|1. Selecionar a opção de cadastrar Demandas |
+||2.Apresentar formulário de cadastro de Demandas
+||3.Solicitar um título para cadastrar a demanda
+|4.Informar título|
+|5.Preencher formulário|
+||5.Verificar se o formulário não está em branco
+||6.Informar que o formulário deve ser preenchido
+||7.Apresentar formulário de cadastro de Demandas
+|8. Preencher formulário|
+||9.Verificar se o formulário não está em branco
+||10.Informar  materiais cadastrados
+||11.Verificar materiais no banco
+|12. Selecionar material|
+||13.Informar que o material foi vinculado a demanda
+|14.Salvar demanda|
+||15.Informar que a demanda foi cadastrada
