@@ -56,7 +56,7 @@ b) **Pré-condições**: É preciso estar cadastrado no sistema.
 
 c) **Resumo**: Este caso de uso descreve as etapas percorridas pelo o usuário para logar-se ao sistema
 
-d) **Cenário Principal**:
+d) **Fluxo principal ou Cenário de sucesso principal**:
 
 | Ações do ator        | Resposta do Sistema           
 | :------------- |:-------------:
@@ -86,7 +86,7 @@ b) **Resumo**: Este caso detalha os passos para que o gestor geral possa gerar r
 
 c) **Pré-condições**: O gestor geral necessita gerar um relatório com base nos dados do sistema
 
-d) **Cenário Principal - Gestor gera um relatório**: 
+d) **Fluxo principal ou Cenário de sucesso principal - Gestor gera um relatório**: 
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -100,7 +100,7 @@ d) **Cenário Principal - Gestor gera um relatório**:
 |8. Selecionar opção de envio |
 | | 9. Enviar relatório
 
-e) **Cenário Alternativo I - relatório sem nenhum preenchimento**:
+e) **Fluxo principal ou Cenário de sucesso principal - relatório sem nenhum preenchimento**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -124,7 +124,7 @@ a) **Ator principal**: Gestor geral
 
 b) **Resumo**: Este caso detalha como o usuário irá cadastrar assuntos para reuniões e pautas.
 
-c) **Cenário principal - Gestor cadastra um assunto no sistema**:
+c) **Fluxo principal ou Cenário de sucesso principal - Gestor cadastra um assunto no sistema**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -137,7 +137,7 @@ c) **Cenário principal - Gestor cadastra um assunto no sistema**:
 ||7.Solicitar se o usuário deseja salvar
 |8. Salvar assunto |
 
-d) **Cenário alternativo I - Gestor não informou um título**:
+d) **Fluxo principal ou Cenário de sucesso principal - Gestor não informou um título**:
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
 |1.Selecionar a opção de cadastrar assunto |
@@ -152,7 +152,7 @@ d) **Cenário alternativo I - Gestor não informou um título**:
 ||10.Solicitar se o usuário deseja salvar
 |11. Salvar assunto |
 
-d) **Cenário alternativo II - Gestor não informou uma data**:
+d) **Fluxo principal ou Cenário de sucesso principal - Gestor não informou uma data**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -177,7 +177,7 @@ b) **Resumo**: Este caso detalha como o usuário irá cadastrar demandas dentro 
 
 c) **Pré-condição**: ter materiais cadastrados dentro do sistema
 
-d) **Cenário principal - Gestor cadastra uma demanda**:
+d) **Fluxo principal ou Cenário de sucesso principal - Gestor cadastra uma demanda**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -193,7 +193,7 @@ d) **Cenário principal - Gestor cadastra uma demanda**:
 |10.Salvar demanda |
 ||11. Informar que a demanda foi cadastrada
 
-e) **Cenário alternativo I - Nenhum material cadastrado no sistema**:
+e) **Fluxos alternativos ou Extensões - Nenhum material cadastrado no sistema**:
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
 |1. Selecionar a opção de cadastrar Demandas |
@@ -207,7 +207,7 @@ e) **Cenário alternativo I - Nenhum material cadastrado no sistema**:
 ||9.Solicitar para que cadastre um material no sistema
 ||10.Retornar para o menu principal
 
-e) **Cenário alternativo II - Gestor não informou um título**:
+e) **Fluxos alternativos ou Extensões - Gestor não informou um título**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -226,7 +226,7 @@ e) **Cenário alternativo II - Gestor não informou um título**:
 |13.Salvar demanda|
 ||14.Informar que a demanda foi cadastrada
 
-e) **Cenário alternativo III - Gestor não preencheu o formulário**:
+e) **Fluxos alternativos ou Extensões - Gestor não preencheu o formulário**:
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
 |1. Selecionar a opção de cadastrar Demandas |
@@ -255,7 +255,7 @@ b) **Resumo**: Este caso detalha os passos para que o gestor geral possa registr
 
 c) **Pré-condição**: retirada de algum material do laboratório
 
-d) **Cenário Principal - Registrar saída de materiais**:
+d) **Fluxo principal ou Cenário de sucesso principal - Registrar saída de materiais**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -266,7 +266,7 @@ d) **Cenário Principal - Registrar saída de materiais**:
 ||5.Solicitar confirmação
 ||6. Registra a saída dos materiais
 
-e) **Cenário alternativo - Gestor não preencheu o formulário**:
+e) **Fluxos alternativos ou Extensões - Gestor não preencheu o formulário**:
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
 |1.Selecionar a opção de registrar saída de materiais|
@@ -282,7 +282,7 @@ e) **Cenário alternativo - Gestor não preencheu o formulário**:
 |11. Confirmar ação|
 ||12. Registrar a saída dos materiais 
 
-f) **Cenário alternativo - Gestor não confirmou a ação de registro**:
+e) **Fluxos alternativos ou Extensões - Gestor não confirmou a ação de registro**:
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
 |1.Selecionar a opção de registrar saída de materiais|
@@ -303,7 +303,7 @@ b) **Resumo**: Este caso detalha passo a passo como o gestor irá registrar a en
 
 c) **Pré-condições**: Gestor deseja realizar a entrada de um material recebido
 
-d) **Cenário principal -  Gestor registra a entrada de material**:
+d) **Fluxo principal ou Cenário de sucesso principal -  Gestor registra a entrada de material**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -315,7 +315,7 @@ d) **Cenário principal -  Gestor registra a entrada de material**:
 |6. Confirmar ação|
 ||7. Registra a entrada de materiais no sistema
 
-e) **Cenário alternativo - Gestor não preenche formulário**:
+e) **Fluxos alternativos ou Extensões - Gestor não preenche formulário**:
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
 |1.Selecionar a opção de registro de materiais|
@@ -332,7 +332,7 @@ e) **Cenário alternativo - Gestor não preenche formulário**:
 |12. Confirmar ação|
 ||13.Registra a entrada de materiais no sistema
 
-f) **Cenário alternativo - Gestor deseja cancelar o registro**:
+e) **Fluxos alternativos ou Extensões - Gestor deseja cancelar o registro**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -353,7 +353,7 @@ b) **Resumo**: Este caso detalha como o aluno irá cadastrar demandas dentro do 
 
 c)**Pré-condições**: Aluno deseja registrar uma demanda no sistema
 
-d) **Cenário Principal - Aluno deseja registrar demanda**:
+d) **Fluxo principal ou Cenário de sucesso principal - Aluno deseja registrar demanda**:
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
 |1.Seleciona a opção de Registrar demandas|
@@ -364,7 +364,7 @@ d) **Cenário Principal - Aluno deseja registrar demanda**:
 |6.Confirmar ação|
 ||7.Demanda registrada com sucesso
 
-e) **Cenário alternativo - Aluno não preenche o formulário**:
+e) **Fluxos alternativos ou Extensões - Aluno não preenche o formulário**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -381,7 +381,7 @@ e) **Cenário alternativo - Aluno não preenche o formulário**:
 |11.Confirmar ação|
 ||12.Demanda registrada com sucesso
 
-f) **Cenário alternativo - Aluno cancela o registro da demanda**:
+e) **Fluxos alternativos ou Extensões - Aluno cancela o registro da demanda**:
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
 |1.Seleciona a opção de Registrar demandas|
