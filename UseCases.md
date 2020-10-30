@@ -100,7 +100,7 @@ d) **Cenário Principal - Gestor gera um relatório**:
 |8. Selecionar opção de envio |
 | | 9. Enviar relatório
 
-e) **Cenário Alternativo - relatório sem nenhum preenchimento**:
+e) **Cenário Alternativo I - relatório sem nenhum preenchimento**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -137,7 +137,7 @@ c) **Cenário principal - Gestor cadastra um assunto no sistema**:
 ||7.Solicitar se o usuário deseja salvar
 |8. Salvar assunto |
 
-d) **Cenário alternativo - Gestor não informou um título**:
+d) **Cenário alternativo I - Gestor não informou um título**:
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
 |1.Selecionar a opção de cadastrar assunto |
@@ -152,7 +152,7 @@ d) **Cenário alternativo - Gestor não informou um título**:
 ||10.Solicitar se o usuário deseja salvar
 |11. Salvar assunto |
 
-e) **Cenário alternativo - Gestor não informou uma data**:
+d) **Cenário alternativo II - Gestor não informou uma data**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -193,7 +193,7 @@ d) **Cenário principal - Gestor cadastra uma demanda**:
 |10.Salvar demanda |
 ||11. Informar que a demanda foi cadastrada
 
-e) **Cenário alternativo - Nenhum material cadastrado no sistema**:
+e) **Cenário alternativo I - Nenhum material cadastrado no sistema**:
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
 |1. Selecionar a opção de cadastrar Demandas |
@@ -207,7 +207,7 @@ e) **Cenário alternativo - Nenhum material cadastrado no sistema**:
 ||9.Solicitar para que cadastre um material no sistema
 ||10.Retornar para o menu principal
 
-f) **Cenário alternativo - Gestor não informou um título**:
+e) **Cenário alternativo II - Gestor não informou um título**:
 
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
@@ -226,7 +226,7 @@ f) **Cenário alternativo - Gestor não informou um título**:
 |13.Salvar demanda|
 ||14.Informar que a demanda foi cadastrada
 
-g) **Cenário alternativo - Gestor não preencheu o formulário**:
+e) **Cenário alternativo III - Gestor não preencheu o formulário**:
 | Ações do ator | Resposta do Sistema
 | :----------- | :-------------:|
 |1. Selecionar a opção de cadastrar Demandas |
